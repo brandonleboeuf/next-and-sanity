@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/client": "^2.0.1",
     "next": "9.5.5",
+    "next-on-netlify": "^2.5.1",
     "react": "16.14.0",
     "react-dom": "16.14.0"
   }
